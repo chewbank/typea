@@ -1,12 +1,13 @@
 {
-   "name": "typea",
+   "name": "@chewbank/typea",
    "version": "5.2.0",
    "description": "JS数据验证、转换递归器",
    "main": "index.js",
    "scripts": {
       "watch": "tsc --watch",
       "build": "tsc",
-      "test": "jtf -w"
+      "test": "jtf -w",
+      "prepare": "npm run build"
    },
    "author": "https://github.com/xiangle/typea.git",
    "license": "ISC",
